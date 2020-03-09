@@ -23,10 +23,10 @@ int partition(int a[],int start,int end){
 void quicksort(int a[],int start,int end){
     if(start<end){
         int partitionIndex=partition(a,start,end);
-        for(int p=0;p<9;p++){
-            cout<<a[p]<<" ";
-        }
-        cout<<endl;
+       // for(int p=0;p<9;p++){
+        //    cout<<a[p]<<" ";
+       // }
+       // cout<<endl;
         quicksort(a,start,partitionIndex-1);
 
         quicksort(a,partitionIndex+1,end);
