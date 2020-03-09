@@ -35,12 +35,12 @@ void quicksort(int a[],int start,int end){
 int main(){
     int a[]={11,9,5,7,6,2,4,8,6};
     int siz= (sizeof(a)/ sizeof(a[0]))-1;
-   // for(int i : a)
-     //  cout<<i<<" ";
+    for(int i : a)
+       cout<<i<<" ";
     cout<<endl;
     quicksort(a,0,siz);
-   // for(int i : a)
-    //    cout<<i<<" ";
+    for(int i : a)
+        cout<<i<<" ";
 }
 
 
