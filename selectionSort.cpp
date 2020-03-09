@@ -1,5 +1,5 @@
 
-//////          SELECT SORT         ///////////////////
+//////          SELECTION SORT         ///////////////////
 
 #include <iostream>
 using namespace std;
